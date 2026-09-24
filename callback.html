@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Finishing connection · Sextant</title><link rel="stylesheet" href="style.css">
+<script>
+// QuickBooks returns here after the owner approves. This page only hands that answer to the connect step running on the
+// owner's own computer (localhost); nothing is stored or sent anywhere else.
+if(location.search)location.replace('http://localhost:8765/callback'+location.search);
+</script></head>
+<body><main>
+<h1>Finishing the connection…</h1>
+<p>If nothing happens, make sure the connect step is running on the computer you are using, then try connecting again.</p>
+</main></body></html>
